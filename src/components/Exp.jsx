@@ -5,10 +5,10 @@ function Exp() {
   return (
     <div className='flex flex-col justify-center border border-b-slate-800 m-10 hover:animate-pulse'>
         <img src={etherum} alt='etherum logo'/>
-        <p className='text-sm m-3 font-extralight'> this card contains my etherum project it is a crypto trasfer wallet
+        <p className='text-sm m-3 font-extralight sm:text-xs'> this card contains my etherum project it is a crypto trasfer wallet
         I will describe a lot in the project
         </p>
-        <p className='text-l text-red-800 font-bold'>Technologies  </p>
+        <p className='text-l text-red-800 font-bold sm:text-xs'>Technologies  </p>
         <ul > 
         <li className='bg-gray-100 rounded-full text-slate-800 font-semibold m-2 w-fit'> #Etheum</li>
         <li className='bg-gray-100 rounded-full text-slate-800 font-semibold m-2 w-fit'> #Recat</li>
